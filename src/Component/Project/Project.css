@@ -1,0 +1,35 @@
+.sigleProject_div{
+    height: 20rem;
+    width: 20rem;
+    background:rgb(230, 178, 178);
+    margin-left: 2rem;
+    display: flex;
+    margin-top: 2rem;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    justify-content: center;
+    transition: transform 0.1s ease;
+    flex-direction: column;
+}
+
+.sigleProject_div:hover{
+    
+    transform: scale(1.1);
+  }
+.project_div{
+    margin-left: 20rem;
+    margin-top: 4rem;
+}
+.pro_icon{
+    height: 3rem;
+    width: 4rem;
+margin-top: 2rem;
+}
+.All_poject{
+    display: flex;
+    flex-wrap: wrap;
+    
+   
+}

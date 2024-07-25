@@ -1,0 +1,54 @@
+.box_container{
+   
+   margin-left: 4rem;
+    height: 12rem;
+    width:20rem;
+    background: #8c8b8b;
+    margin-top: 2rem;
+   
+    transition: transform 0.1s ease;
+  }
+  @media (min-width: 211px) and (max-width: 1200px) {
+    .box_container {
+      
+      align-items: center;
+      justify-content: center;
+     
+    }
+  }
+  .box_container:hover{
+    
+    transform: scale(1.2);
+  }
+  .head_dash{
+    margin-left: 24rem;
+    font-size: 1.5rem;
+  }
+  
+  .box_container h1{
+   padding-top: 1.5rem;
+   padding-left: 1.5rem;
+   font-size: 2.5rem;
+  }
+  .box_container h2{
+    /* padding-top: 1.5rem; */
+    padding-left: 1.5rem;
+    font-size: 1.7rem;
+   }
+   .user_icon{
+    height: 3rem;
+    width: 5rem;
+    margin-top: 15px;
+
+   }
+   .icon_head{
+    display: flex;
+   }
+   .all_box{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20rem;
+    flex-direction: row;
+    margin-top: 1rem;
+   
+   }
