@@ -1,10 +1,10 @@
 .sigleProject_div{
-    height: 20rem;
-    width: 20rem;
+    height: 15rem;
+    width: 15rem;
     background:rgb(230, 178, 178);
     margin-left: 2rem;
     display: flex;
-    margin-top: 2rem;
+    margin-top: 3.5rem;
     font-size: 2rem;
     display: flex;
     align-items: center;
@@ -32,4 +32,7 @@ margin-top: 2rem;
     flex-wrap: wrap;
     
    
+}
+.project_div h1{
+    margin-left: 2rem;
 }

@@ -11,7 +11,9 @@ const navigate = useNavigate()
       navigate('/employees')
     }
     
-
+function project_click(){
+  navigate('/projects')
+}
 
   return (
     <>
@@ -20,8 +22,8 @@ const navigate = useNavigate()
       <h1>Dashboard</h1>
 
     </div>
-<div onClick={empClick} className='all_box'>
-   <div className='box_container'>
+<div  className='all_box'>
+   <div onClick={empClick} className='box_container'>
      <h1>05</h1>
       <div className='icon_head'>
       <h2>Total Employees </h2>
@@ -31,8 +33,8 @@ const navigate = useNavigate()
     
      
 </div>
-<div className='box_container'>
-     <h1>10</h1>
+<div onClick={project_click} className='box_container'>
+     <h1>06</h1>
       <div className='icon_head'>
       <h2>Total Projets </h2>
       <FaFolderOpen className='user_icon'/>

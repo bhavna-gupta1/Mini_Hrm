@@ -13,6 +13,7 @@ function Project() {
    <>
    <Dashboard/>
    <div className='project_div'>
+    <h1 >All Projects</h1>
   <div className='All_poject'>
   <div onClick={() => goToProjectDetails(1)} className='sigleProject_div'>
         <h>VFT</h>

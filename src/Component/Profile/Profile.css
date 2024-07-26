@@ -1,4 +1,26 @@
 .main_profile{
-    margin-left: 20rem;
+    margin-left: 22rem;
+    margin-top:4rem;
     
+    display: flex;
+}
+.card{
+    height: 20rem;
+    width: 18rem;
+    margin-left: 2rem;
+    background: rgb(212, 206, 206);
+     
+}
+.img_icon{
+    height: 5rem;
+    width: 5rem;
+padding: 5px;
+  border: 2px solid black;
+ border-radius: 50%;
+    margin-top: 2rem;
+  
+   margin-left: 6rem;
+}
+.card p{
+    font-size: 1rem;
 }
