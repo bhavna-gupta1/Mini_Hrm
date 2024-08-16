@@ -12,7 +12,7 @@ function Sidebar() {
       <ul className="sidebar-list">
         <li>
           <Link to="/home">
-            <FaHome className="sidebar-icon" /> Home
+            <FaHome className="sidebar-icon" /> HOME
           </Link>
         </li>
         <li>
